@@ -1,0 +1,49 @@
+#bloque {
+                    display: flex;
+                flex-direction: column;
+                width: 150px;
+                height: 150px;
+                background: #FFFCAF;
+                margin: 2%;
+                outline: none;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+                font-family: 'Parisienne', Lucida Handwriting, Script MT Bold, cursive;
+                font-size: small;
+                text-align: center;
+            }
+
+            #bloque-done {
+                display: flex;
+                flex-direction: column;
+                text-decoration:line-through;
+                width: 150px;
+                height: 150px;
+                background: #32aa27;
+                margin: 2%;
+                outline: none;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+                font-family: 'Parisienne', Lucida Handwriting, Script MT Bold, cursive;
+                font-size: small;
+                text-align: center;
+            }
+
+#all-tasks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#all-tasks-done {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.deleteBtn {
+    text-decoration:none !important;
+}
+
+.addBox {
+    display: flex;
+    justify-content: center;
+}
